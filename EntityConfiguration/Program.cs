@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ShadowProperties
+namespace EntityConfiguration
 {
     class Program
     {
@@ -13,7 +15,7 @@ namespace ShadowProperties
             shipNames.ForEach(Console.WriteLine);
         }
     }
-
+    
     public class NorthwindContext : DbContext
     {
         public DbSet<Order> Orders { get; set; }
@@ -25,7 +27,16 @@ namespace ShadowProperties
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Order>().Property(typeof(string), "ShipName");
+            // modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetEntryAssembly());
+            modelBuilder.ApplyConfiguration(new OrderConfiguration());
+        }
+    }
+
+    public class OrderConfiguration : IEntityTypeConfiguration<Order>
+    {
+        public void Configure(EntityTypeBuilder<Order> builder)
+        {
+            builder.Property(typeof(string), "ShipName"); 
         }
     }
 

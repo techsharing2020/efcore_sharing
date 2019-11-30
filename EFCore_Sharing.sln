@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureConnectionString",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowProperties", "ShadowProperties\ShadowProperties.csproj", "{34345335-05B3-4F02-8A47-3F3DD840EEE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityConfiguration", "EntityConfiguration\EntityConfiguration.csproj", "{69178816-7E80-49C5-8020-F1E45E4CC8B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69178816-7E80-49C5-8020-F1E45E4CC8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69178816-7E80-49C5-8020-F1E45E4CC8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69178816-7E80-49C5-8020-F1E45E4CC8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69178816-7E80-49C5-8020-F1E45E4CC8B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

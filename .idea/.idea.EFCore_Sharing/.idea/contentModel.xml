@@ -67,6 +67,18 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="EFCore_Sharing.sln" t="IncludeFlat" />
+      <e p="EntityConfiguration" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EntityConfiguration.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="EntityConfiguration.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="GenerateDbScript" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="GenerateDbScript.csproj" t="IncludeRecursive" />
