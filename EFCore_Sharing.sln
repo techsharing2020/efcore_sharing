@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateDbScript", "Generat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{D5F964C8-7A0F-43A7-9DC4-94913B06E025}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiContexts", "MultiContexts\MultiContexts.csproj", "{BD52DA11-E95E-4C65-B5E0-663D7A7F59F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D5F964C8-7A0F-43A7-9DC4-94913B06E025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F964C8-7A0F-43A7-9DC4-94913B06E025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F964C8-7A0F-43A7-9DC4-94913B06E025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD52DA11-E95E-4C65-B5E0-663D7A7F59F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD52DA11-E95E-4C65-B5E0-663D7A7F59F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD52DA11-E95E-4C65-B5E0-663D7A7F59F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD52DA11-E95E-4C65-B5E0-663D7A7F59F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
