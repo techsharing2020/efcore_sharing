@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_EFCore_Sharing.1607785131.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contexts" t="Include">
+          <e p="NorthwindContext.cs" t="Include" />
+        </e>
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="AlphabeticalListOfProducts.cs" t="Include" />
+          <e p="Categories.cs" t="Include" />
+          <e p="CategorySalesFor1997.cs" t="Include" />
+          <e p="CurrentProductList.cs" t="Include" />
+          <e p="CustomerAndSuppliersByCity.cs" t="Include" />
+          <e p="CustomerCustomerDemo.cs" t="Include" />
+          <e p="CustomerDemographics.cs" t="Include" />
+          <e p="Customers.cs" t="Include" />
+          <e p="Employees.cs" t="Include" />
+          <e p="EmployeeTerritories.cs" t="Include" />
+          <e p="Invoices.cs" t="Include" />
+          <e p="OrderDetails.cs" t="Include" />
+          <e p="OrderDetailsExtended.cs" t="Include" />
+          <e p="Orders.cs" t="Include" />
+          <e p="OrdersQry.cs" t="Include" />
+          <e p="OrderSubtotals.cs" t="Include" />
+          <e p="Products.cs" t="Include" />
+          <e p="ProductsAboveAveragePrice.cs" t="Include" />
+          <e p="ProductSalesFor1997.cs" t="Include" />
+          <e p="ProductsByCategory.cs" t="Include" />
+          <e p="QuarterlyOrders.cs" t="Include" />
+          <e p="Region.cs" t="Include" />
+          <e p="SalesByCategory.cs" t="Include" />
+          <e p="SalesTotalsByAmount.cs" t="Include" />
+          <e p="Shippers.cs" t="Include" />
+          <e p="SummaryOfSalesByQuarter.cs" t="Include" />
+          <e p="SummaryOfSalesByYear.cs" t="Include" />
+          <e p="Suppliers.cs" t="Include" />
+          <e p="Territories.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="EFCore_Sharing.sln" t="IncludeFlat" />
+      <e p="GenerateDbScript" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GenerateDbScript.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="GenerateDbScript.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
