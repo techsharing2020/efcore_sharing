@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiContexts", "MultiConte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureConnectionString", "ConfigureConnectionString\ConfigureConnectionString.csproj", "{337943BD-1710-4EA7-BDAB-65A46A75B5BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowProperties", "ShadowProperties\ShadowProperties.csproj", "{34345335-05B3-4F02-8A47-3F3DD840EEE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{337943BD-1710-4EA7-BDAB-65A46A75B5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337943BD-1710-4EA7-BDAB-65A46A75B5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{337943BD-1710-4EA7-BDAB-65A46A75B5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34345335-05B3-4F02-8A47-3F3DD840EEE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
