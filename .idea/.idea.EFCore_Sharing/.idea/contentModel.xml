@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BackingField" t="IncludeRecursive">
+        <e p="BackingField.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BackingField.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="ConfigureConnectionString" t="IncludeRecursive">
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -15,10 +27,35 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="ConsoleLog" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConsoleLog.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ConsoleLog.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Conversion" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Conversion.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Conversion.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Contexts" t="Include">
           <e p="NorthwindContext.cs" t="Include" />
+          <e p="NorthwindContext2.cs" t="Include" />
         </e>
         <e p="Data.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -61,6 +98,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="DbFunctions" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DbFunctions.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DbFunctions.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="EFCore_Sharing.sln" t="IncludeFlat" />
       <e p="EntityConfiguration" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -74,6 +123,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Filter" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Filter.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Filter.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="GenerateDbScript" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="GenerateDbScript.csproj" t="IncludeRecursive" />
@@ -81,6 +142,18 @@
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="GenerateDbScript.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Hierarchy" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Hierarchy.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Hierarchy.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

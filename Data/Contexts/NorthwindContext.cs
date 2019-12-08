@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Linq;
 using Data.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace Data.Contexts
 {
@@ -50,12 +54,39 @@ namespace Data.Contexts
         public virtual DbSet<Suppliers> Suppliers { get; set; }
         public virtual DbSet<Territories> Territories { get; set; }
 
+        /*
+         CREATE FUNCTION[dbo].[MySum]
+          (
+            @param1 int,
+  	        @param2 int
+          )
+         RETURNS INT AS
+        BEGIN
+           RETURN @param1 + @param2
+        END
+         */
+        [DbFunction("MySum")]
+        public virtual int MySum(int x, int y)
+        {
+            throw new NotImplementedException();
+        }
+        
+        [DbFunction("LEFT")]
+        public virtual string LEFT(string input, int length)
+        {
+            throw new NotImplementedException();
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var connectionString = _configuration != null
                 ? _configuration.GetConnectionString("Northwind")
                 : "Data Source=localhost;User Id=sa;Password=P@ssw0rd;Initial Catalog=Northwind";
             optionsBuilder.UseSqlServer(connectionString);
+
+            optionsBuilder.UseLoggerFactory(LoggerFactory.Create(c => 
+                c.AddConsole().AddFilter((s, level) => s == DbLoggerCategory.Database.Command.Name 
+                                                       && level == LogLevel.Information)));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
