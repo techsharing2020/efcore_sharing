@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLog", "ConsoleLog\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter", "Filter\Filter.csproj", "{25A278EB-2051-4258-B17E-C23B84A805B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrate", "Migrate\Migrate.csproj", "{261031B7-A72D-4EBB-866B-134B056ACC7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{25A278EB-2051-4258-B17E-C23B84A805B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25A278EB-2051-4258-B17E-C23B84A805B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25A278EB-2051-4258-B17E-C23B84A805B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261031B7-A72D-4EBB-866B-134B056ACC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261031B7-A72D-4EBB-866B-134B056ACC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261031B7-A72D-4EBB-866B-134B056ACC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261031B7-A72D-4EBB-866B-134B056ACC7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

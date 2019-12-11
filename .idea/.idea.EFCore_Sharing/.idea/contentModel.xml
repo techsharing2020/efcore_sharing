@@ -159,6 +159,27 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Migrate" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Migrate.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20191208080108_init.cs" t="Include" />
+          <e p="20191208080108_init.Designer.cs" t="Include" />
+          <e p="20191208080149_age.cs" t="Include" />
+          <e p="20191208080149_age.Designer.cs" t="Include" />
+          <e p="20191211082510_add address.cs" t="Include" />
+          <e p="20191211082510_add address.Designer.cs" t="Include" />
+          <e p="TestContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Migrate.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="MultiContexts" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="MultiContexts.csproj" t="IncludeRecursive" />
