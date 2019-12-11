@@ -10,6 +10,8 @@ namespace Migrate
     {
         static void Main(string[] args)
         {
+            // dotnet ef migrations add 'add address' -p Migrate  
+            // dotnet ef database update '20191208080149_age' -p Migrate   
             var context = new TestContext();
             var students = context.Students.ToList();
         }
